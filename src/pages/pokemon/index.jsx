@@ -131,7 +131,7 @@ function MyPokemon() {
         </Modal>
         
         <div className={styles['total-pokemon']}>
-          <span>Total Pokemon Caught: {myPokemonList.length} Pokemons</span>
+          <span>Total Pokemon Caught: {myPokemonList ? myPokemonList.length : 0} Pokemon</span>
         </div>
         <List
             itemLayout="horizontal"
