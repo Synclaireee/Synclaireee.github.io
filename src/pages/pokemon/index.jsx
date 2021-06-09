@@ -90,6 +90,7 @@ function MyPokemon() {
   }
 
   function checkCaptured(id){
+    if(!myPokemonList) return;
     return myPokemonList.filter((p)=>{
       return p.pokemon_id === id;
     }).length
