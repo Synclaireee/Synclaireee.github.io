@@ -1,0 +1,41 @@
+.description{
+    &__image{
+        height: 100px;
+        width: 100px;
+    }
+    &__button{
+        margin: 24px 0;
+    }
+    &__moves{
+        margin: 8px;
+    }
+    &__stats{
+        margin: 0 8px;
+    }
+    &__ability{
+        margin: 0 8px;
+    }
+    &__type{
+        margin: 0 8px;
+    }
+    
+    @media only screen and (max-width: 1023px) {
+        &__stats{
+            margin: 8px 0;
+        }
+        &__ability{
+            margin: 8px 0;
+        }
+        &__type{
+            margin: 8px 0;
+        }
+    }
+}
+
+.modal{
+    &__content{
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 16px;
+    }
+}

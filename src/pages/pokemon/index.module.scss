@@ -1,0 +1,22 @@
+.modal{
+    &__content{
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 16px;
+    }
+}
+
+.list{
+    &__button{
+        margin: 24px 0;
+    }
+    &__link{
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+.total-pokemon{
+    padding: 0 12px;
+    font-style: italic;
+}
