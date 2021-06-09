@@ -85,7 +85,7 @@ function MyPokemon() {
       // console.log(myPokemonList);
       setOpenModal(false);
       setCapturePokemon({});
-      message.success(`Success to catch ${capitalizeWords(capturePokemon.nickname)}`)
+      message.success(`Success to catch ${capturePokemon.nickname}`)
     }
   }
 

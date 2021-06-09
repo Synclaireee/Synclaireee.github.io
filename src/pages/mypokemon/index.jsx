@@ -19,7 +19,7 @@ function PokemonList() {
     setPokemon(JSON.parse(localStorage.getItem("MYPOKEMONLIST")))
     setReleasedPokemon({});
     setModalOpen(false);
-    message.success(`Release ${releasedPokemon.id} Success!`);
+    message.success(`Release ${releasedPokemon.nickname} Success!`);
   }
 
   function openModal(pokemon){

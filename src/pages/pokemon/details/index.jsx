@@ -20,7 +20,6 @@ function PokemonDetail() {
       if(!id) return;
       try {
         const res = await pokemonApi.getDetail(id);
-        // console.log(res);
         setPokemon(res);
         setLoaded(true);
       } catch (e) {
@@ -74,7 +73,7 @@ function PokemonDetail() {
       // console.log(myPokemonList);
       setOpenModal(false);
       setCapturePokemon({});
-      message.success(`Success to catch ${capitalizeWords(capturePokemon.nickname)}`)
+      message.success(`Success to catch ${capturePokemon.nickname}`)
     }
   }
 
